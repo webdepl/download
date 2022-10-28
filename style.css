@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: monospace;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  height: 5vmin;
+  width: 18vmin;
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.4); 
+	box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
